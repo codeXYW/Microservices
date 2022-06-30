@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +236,7 @@
       <workItem from="1656562209710" duration="1652000" />
       <workItem from="1656564089863" duration="264000" />
       <workItem from="1656564364525" duration="7303000" />
-      <workItem from="1656582236529" duration="1828000" />
+      <workItem from="1656582236529" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="2022年6月29日18:26:16 第一次提交">
       <created>1656498389478</created>
