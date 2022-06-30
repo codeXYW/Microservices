@@ -11,8 +11,9 @@ spring:
     name: order-service
   cloud:
     nacos:
+      server-addr: 127.0.0.1:8850
       discovery:
-        server-addr: 127.0.0.1:8850
+        cluster-name: HN
 
 mybatis:
   type-aliases-package: top.co4.order.pojo
