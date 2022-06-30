@@ -44,7 +44,7 @@ public class OrderService {
         // 1.查询订单
         Order order = orderMapper.findById(orderId);
         // 2.拼接访问地址
-        String url="http://localhost:8081/user/"+order.getUserId();
+        String url="http://user-service/user/"+order.getUserId();
         log.info(url);
         // 3.获取用户信息
         ResponseEntity<User> user = restTemplate.getForEntity(url, User.class);

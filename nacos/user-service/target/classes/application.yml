@@ -9,9 +9,10 @@ spring:
     password: Mn_MySQL_123456
   application:
     name: user-service
-  cloud:
-    nacos:
-      server-addr: localhost:8848 #nacos 服务地址
+ribbon:
+  eager-load:
+    enabled: true
+    clients: user-service
 mybatis:
   type-aliases-package: top.co4.user.pojo
   configuration:

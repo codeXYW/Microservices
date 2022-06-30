@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="" />
+    <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,13 +62,13 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Java/CloudDemo/nacos",
+    "last_opened_file_path": "E:/Java/CloudDemo/nacos/user-service/src/main/resources",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "fileTemplates",
     "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "7e0ded86ce121033b269765a7469068c"
+    "spring.configuration.checksum": "dbb06b181facae336d90f8a4f25fb351"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -64,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\CloudDemo\nacos\user-service\src\main\resources" />
       <recent name="E:\Java\CloudDemo\nacos" />
       <recent name="E:\Java\CloudDemo\eureka" />
       <recent name="E:\Java\CloudDemo\hello\order-service\src\main\resources" />
@@ -80,7 +93,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderServiceApplication (2)">
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication (3)">
     <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.eureka.EurekaServiceApplication" />
@@ -203,7 +216,8 @@
       <updated>1656497788649</updated>
       <workItem from="1656497790065" duration="1577000" />
       <workItem from="1656499387265" duration="608000" />
-      <workItem from="1656500133425" duration="12997000" />
+      <workItem from="1656500133425" duration="16933000" />
+      <workItem from="1656560799539" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="2022年6月29日18:26:16 第一次提交">
       <created>1656498389478</created>
