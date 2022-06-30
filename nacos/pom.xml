@@ -29,6 +29,7 @@
         <spring-cloud.version>Hoxton.SR10</spring-cloud.version>
         <mysql.version>8.0.28</mysql.version>
         <druid.version>1.2.8</druid.version>
+        <nasoc.version>2.2.8.RELEASE</nasoc.version>
         <mybatis.version>2.1.1</mybatis.version>
     </properties>
 
@@ -44,17 +45,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-bootstrap</artifactId>
-                <version>3.0.0</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>2021.1</version>
+                <version>${nasoc.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

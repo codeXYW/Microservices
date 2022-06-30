@@ -9,10 +9,10 @@ spring:
     password: Mn_MySQL_123456
   application:
     name: order-service
-ribbon:
-  eager-load:
-    enabled: true
-    clients: user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8850
 
 mybatis:
   type-aliases-package: top.co4.order.pojo

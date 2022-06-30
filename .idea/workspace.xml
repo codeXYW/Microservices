@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/resources/bootstrap.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/target/classes/bootstrap.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/resources/bootstrap.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/target/classes/bootstrap.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.8.4" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -66,7 +67,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "MavenSettings",
     "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "dbb06b181facae336d90f8a4f25fb351"
   }
@@ -93,7 +94,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication (3)">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication (2)">
     <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.eureka.EurekaServiceApplication" />
@@ -218,6 +219,9 @@
       <workItem from="1656499387265" duration="608000" />
       <workItem from="1656500133425" duration="16933000" />
       <workItem from="1656560799539" duration="1150000" />
+      <workItem from="1656562209710" duration="1652000" />
+      <workItem from="1656564089863" duration="264000" />
+      <workItem from="1656564364525" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="2022年6月29日18:26:16 第一次提交">
       <created>1656498389478</created>
