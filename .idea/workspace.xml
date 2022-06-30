@@ -45,26 +45,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/Java/CloudDemo/nacos/user-service/src/main/resources",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "dbb06b181facae336d90f8a4f25fb351"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java/CloudDemo/nacos/user-service/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;dbb06b181facae336d90f8a4f25fb351&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -87,8 +87,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ORDER_HN_01">
-    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.NACOS_ORDER_HN_01_8080">
+    <configuration name="EUREKA_EUREKA_10086" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
       <module name="eureka-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.eureka.EurekaServiceApplication" />
       <extension name="coverage">
@@ -101,24 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ORDER_HN_01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EUREKA_ORDER_8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <option name="ACTIVE_PROFILES" />
-      <module name="order-service (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.order.OrderServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ORDER_SH_01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="order-service (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.order.OrderServiceApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8999" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="order-service (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.order.OrderServiceApplication" />
       <extension name="coverage">
@@ -131,7 +116,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EUREKA_USER_8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EUREKA_USER_8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HELLO_OREDER_8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <option name="ACTIVE_PROFILES" />
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.order.OrderServiceApplication" />
@@ -145,49 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="USER_HN_01_8099" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="HELLO_USER_8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <option name="ACTIVE_PROFILES" />
-      <module name="user-service (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8099" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="USER_SH_01_8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="user-service (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="USER_SH_02_8088" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="user-service (2)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8088" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
-      <module name="user-service (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
       <extension name="coverage">
@@ -200,25 +161,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NACOS_ORDER_HN_01_8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="order-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.order.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NACOS_ORDER_SH_01_8999" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="order-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.order.OrderServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8999" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NACOS_USER_HN_01_8099" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8099" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NACOS_USER_SH_01_8081" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NACOS_USER_SH_02_8088" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.co4.user.UserServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8088" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.ORDER_HN_01" />
-      <item itemvalue="Spring Boot.ORDER_SH_01" />
-      <item itemvalue="Spring Boot.USER_HN_01_8099" />
-      <item itemvalue="Spring Boot.USER_SH_01_8081" />
-      <item itemvalue="Spring Boot.USER_SH_02_8088" />
-      <item itemvalue="Spring Boot.UserServiceApplication (2)" />
-      <item itemvalue="Spring Boot.UserServiceApplication (1)" />
-      <item itemvalue="Spring Boot.EurekaServiceApplication" />
-      <item itemvalue="Spring Boot.OrderServiceApplication (1)" />
-      <item itemvalue="Spring Boot.OrderServiceApplication" />
-      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.NACOS_ORDER_HN_01_8080" />
+      <item itemvalue="Spring Boot.NACOS_USER_SH_01_8081" />
+      <item itemvalue="Spring Boot.NACOS_USER_HN_01_8099" />
+      <item itemvalue="Spring Boot.NACOS_USER_SH_02_8088" />
+      <item itemvalue="Spring Boot.NACOS_ORDER_SH_01_8999" />
+      <item itemvalue="Spring Boot.EUREKA_USER_8081" />
+      <item itemvalue="Spring Boot.EUREKA_USER_8082" />
+      <item itemvalue="Spring Boot.EUREKA_ORDER_8080" />
+      <item itemvalue="Spring Boot.EUREKA_EUREKA_10086" />
+      <item itemvalue="Spring Boot.HELLO_OREDER_8080" />
+      <item itemvalue="Spring Boot.HELLO_USER_8081" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderServiceApplication (1)" />
-        <item itemvalue="Spring Boot.EurekaServiceApplication" />
-        <item itemvalue="Spring Boot.OrderServiceApplication" />
-        <item itemvalue="Spring Boot.UserServiceApplication" />
+        <item itemvalue="Spring Boot.EUREKA_ORDER_8080" />
+        <item itemvalue="Spring Boot.EUREKA_EUREKA_10086" />
+        <item itemvalue="Spring Boot.HELLO_USER_8081" />
+        <item itemvalue="Spring Boot.HELLO_OREDER_8080" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +240,8 @@
       <workItem from="1656560799539" duration="1150000" />
       <workItem from="1656562209710" duration="1652000" />
       <workItem from="1656564089863" duration="264000" />
-      <workItem from="1656564364525" duration="2215000" />
+      <workItem from="1656564364525" duration="7303000" />
+      <workItem from="1656582236529" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="2022年6月29日18:26:16 第一次提交">
       <created>1656498389478</created>

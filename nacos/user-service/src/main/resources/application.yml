@@ -11,9 +11,12 @@ spring:
     name: user-service
   cloud:
     nacos:
-      server-addr: 127.0.0.1:8850
+      server-addr: 81.69.253.228:8848
       discovery:
-        cluster-name: SH
+        cluster-name: HN
+        namespace: 73972537-f019-4e75-8a40-64e2150b5fd6
+
+
 mybatis:
   type-aliases-package: top.co4.user.pojo
   configuration:

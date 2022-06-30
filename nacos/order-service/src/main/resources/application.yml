@@ -11,10 +11,14 @@ spring:
     name: order-service
   cloud:
     nacos:
-      server-addr: 127.0.0.1:8850
       discovery:
-        cluster-name: HN
-
+        server-addr: 81.69.253.228:8848
+        cluster-name: SH
+        namespace: 73972537-f019-4e75-8a40-64e2150b5fd6
+        ephemeral: true
+user-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
 mybatis:
   type-aliases-package: top.co4.order.pojo
   configuration:
