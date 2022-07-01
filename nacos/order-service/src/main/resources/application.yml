@@ -1,21 +1,15 @@
 server:
   port: 8080
 spring:
+  profiles:
+    active: dev
   datasource:
     name: DataSource
     url: jdbc:mysql://localhost:3306/cloud_order?serverTimezone=UTC&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: Mn_MySQL_123456
-  application:
-    name: order-service
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 81.69.253.228:8848
-        cluster-name: SH
-        namespace: 73972537-f019-4e75-8a40-64e2150b5fd6
-        ephemeral: true
+
 user-service:
   ribbon:
     NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule

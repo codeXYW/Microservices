@@ -31,6 +31,7 @@
         <druid.version>1.2.8</druid.version>
         <nasoc.version>2.2.8.RELEASE</nasoc.version>
         <mybatis.version>2.1.1</mybatis.version>
+        <nacos-cofig.version>2.2.8.RELEASE</nacos-cofig.version>
     </properties>
 
     <dependencyManagement>
@@ -51,6 +52,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-config -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>${nacos-cofig.version}</version>
+            </dependency>
+
 
             <!-- mysql驱动 -->
             <dependency>

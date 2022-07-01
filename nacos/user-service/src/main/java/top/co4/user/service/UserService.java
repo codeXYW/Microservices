@@ -14,4 +14,5 @@ public class UserService {
     public User queryById(Long id) {
         return userMapper.findById(id);
     }
+
 }

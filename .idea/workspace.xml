@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="" />
+    <list default="true" id="2eb3b608-a70c-49dc-99cc-8a116606ad3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/sql/nacos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/java/top/co4/order/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/java/top/co4/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/src/main/java/top/co4/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/java/top/co4/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/src/main/java/top/co4/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos/user-service/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +37,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/hello/order-service/src/main/java/top/co4/order/OrderServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/hello/user-service/src/main/java/top/co4/user/UserServiceApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nacos/order-service/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nacos/user-service/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NACOS_ORDER_HN_01_8080">
+  <component name="RunManager" selected="Spring Boot.NACOS_USER_SH_01_8081">
     <configuration name="EUREKA_EUREKA_10086" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <option name="ACTIVE_PROFILES" />
       <module name="eureka-service" />
@@ -237,6 +253,9 @@
       <workItem from="1656564089863" duration="264000" />
       <workItem from="1656564364525" duration="7303000" />
       <workItem from="1656582236529" duration="2461000" />
+      <workItem from="1656633363321" duration="2230000" />
+      <workItem from="1656637244883" duration="8901000" />
+      <workItem from="1656660489360" duration="5887000" />
     </task>
     <task id="LOCAL-00001" summary="2022年6月29日18:26:16 第一次提交">
       <created>1656498389478</created>
