@@ -11,6 +11,7 @@
     <modules>
         <module>feign-order</module>
         <module>feign-user</module>
+        <module>feign-api</module>
     </modules>
 
     <packaging>pom</packaging>
