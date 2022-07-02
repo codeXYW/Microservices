@@ -9,8 +9,8 @@
     <version>1.0</version>
 
     <modules>
-        <module>order-service</module>
-        <module>user-service</module>
+        <module>hello-order</module>
+        <module>hello-user</module>
     </modules>
 
     <packaging>pom</packaging>
