@@ -8,7 +8,7 @@ spring:
       username: root
       password: Mn_MySQL_123456
     application:
-      name: order-service
+      name: eureka-order
 
 eureka:
   client:

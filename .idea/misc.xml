@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/eureka/eureka-service/pom.xml" />
         <option value="$PROJECT_DIR$/nacos/pom.xml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
       </list>
     </option>
   </component>

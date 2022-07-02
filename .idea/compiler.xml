@@ -11,6 +11,7 @@
         <module name="eureka-user" />
         <module name="hello-user" />
         <module name="nacos-user" />
+        <module name="gateway-server" />
         <module name="hello-order" />
         <module name="eureka-server" />
         <module name="feign-order" />
@@ -28,6 +29,7 @@
       <module name="feign-api" options="-parameters" />
       <module name="feign-order" options="-parameters" />
       <module name="feign-user" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
       <module name="hello-order" options="-parameters" />
       <module name="hello-user" options="-parameters" />
       <module name="nacos-order" options="-parameters" />

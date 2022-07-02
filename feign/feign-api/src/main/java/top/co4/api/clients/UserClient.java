@@ -15,5 +15,5 @@ import top.co4.api.pojo.User;
 public interface UserClient {
 
     @GetMapping("/user/{id}")
-    User findUserById(@PathVariable("id")String id);
+    User findUserById(@PathVariable("id")Long id);
 }

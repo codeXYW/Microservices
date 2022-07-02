@@ -5,7 +5,7 @@ spring:
     active: dev #开发环境，这里是dev
   cloud:
     nacos:
-      server-addr: 127.0.0.1 # Nacos地址
+      server-addr: 81.69.253.228:8848 # Nacos地址
       config:
         file-extension: yaml # 文件后缀名
 feign:
