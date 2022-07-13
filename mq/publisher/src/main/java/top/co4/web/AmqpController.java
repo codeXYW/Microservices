@@ -4,21 +4,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import top.co4.service.BaseControllerService;
+import top.co4.service.AmqpControllerService;
 
 /**
  * @author CodeXYW
- * @date 2022/7/12 18:22
+ * @date 2022/7/13 10:46
  */
-@RequestMapping("/base")
+@RequestMapping("/amqp")
 @RestController
-public class BaseController {
+public class AmqpController {
+
     @Autowired
-    BaseControllerService baseControllerService;
+    AmqpControllerService amqpControllerService;
 
     @RequestMapping("/sendMsg")
     public String sendMsg(@RequestParam("msg")String msg){
-        baseControllerService.sendFanoutExchange("HelloWorld");
+        amqpControllerService.sendFanoutExchange("HelloWorld");
         return "success";
     }
 }

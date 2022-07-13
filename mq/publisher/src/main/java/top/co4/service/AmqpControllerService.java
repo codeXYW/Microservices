@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author CodeXYW
- * @date 2022/7/12 18:22
+ * @date 2022/7/13 10:47
  */
 @Service
-public class BaseControllerService {
+public class AmqpControllerService {
 
     @Autowired
     RabbitTemplate rabbitTemplate;
@@ -36,7 +36,7 @@ public class BaseControllerService {
         int i=0;
         while (true){
             ++i;
-            rabbitTemplate.convertAndSend("simple.queue",msg+i);
+            rabbitTemplate.convertAndSend("work.queue",msg+i);
             if (i%50==0){
                 try {
                     Thread.sleep(1000);
