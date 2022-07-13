@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.co4.consumer.service.BaseControllerService;
+import top.co4.consumer.service.ConsumerBaseControllerService;
 
 import java.io.IOException;
 
@@ -14,40 +14,36 @@ import java.io.IOException;
  */
 @RequestMapping("/base/receiver")
 @RestController
-public class BaseController {
+public class ConsumerBaseController {
 
     @Autowired
-    BaseControllerService baseControllerService;
+    ConsumerBaseControllerService consumerBaseControllerService;
 
     @GetMapping("/simple")
     public void simple() throws IOException {
-        baseControllerService.simple();
+        consumerBaseControllerService.simple();
     }
 
     @GetMapping("/fanout")
     public void fanout(){
-        baseControllerService.fanout();
+        consumerBaseControllerService.fanout();
     }
 
 
     @GetMapping("/direct")
     public void direct(){
-        baseControllerService.direct();
+        consumerBaseControllerService.direct();
     }
 
 
     @GetMapping("/topic")
     public void topic(){
-        baseControllerService.topic();
+        consumerBaseControllerService.topic();
     }
 
 
     @GetMapping("/headers")
     public void headers(){
-        baseControllerService.headers();
+        consumerBaseControllerService.headers();
     }
-
-
-
-
 }

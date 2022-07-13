@@ -12,15 +12,8 @@ import java.nio.charset.StandardCharsets;
  * @date 2022/7/13 11:15
  */
 @Service
-public class BaseControllerService {
+public class ConsumerBaseControllerService {
 
-    /***
-     * @Description //TODO 直接从消息队列中取出
-     * @Param: []
-     * @Return: void
-     * @Author CodeXYW
-     * @Date 2022/7/13 11:53
-     */
     public void simple() throws IOException {
         // 1、获取连接
         Connection connection = RabbitConfig.getConnection();
@@ -163,6 +156,5 @@ public class BaseControllerService {
             }
         };
     }
-
 
 }

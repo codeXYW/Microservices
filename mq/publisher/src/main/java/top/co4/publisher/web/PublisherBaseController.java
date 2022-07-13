@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.co4.publisher.service.BaseControllerService;
+import top.co4.publisher.service.PublisherBaseControllerService;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -15,33 +15,33 @@ import java.util.concurrent.TimeoutException;
  */
 @RequestMapping("/base/sender")
 @RestController
-public class BaseController {
+public class PublisherBaseController {
 
     @Autowired
-    BaseControllerService baseControllerService;
+    PublisherBaseControllerService publisherBaseControllerService;
 
     @GetMapping("/simple")
     public void simple() throws IOException, TimeoutException {
-        baseControllerService.simple();
+        publisherBaseControllerService.simple();
     }
 
     @GetMapping("/fanout")
     public void fanout() throws IOException, TimeoutException {
-        baseControllerService.fanout();
+        publisherBaseControllerService.fanout();
     }
 
     @GetMapping("/direct")
     public void direct() throws IOException, TimeoutException {
-        baseControllerService.direct();
+        publisherBaseControllerService.direct();
     }
 
     @GetMapping("/topic")
     public void topic() throws IOException, TimeoutException {
-        baseControllerService.topic();
+        publisherBaseControllerService.topic();
     }
 
     @GetMapping("/headers")
     public void headers() throws IOException, TimeoutException {
-        baseControllerService.headers();
+        publisherBaseControllerService.headers();
     }
 }

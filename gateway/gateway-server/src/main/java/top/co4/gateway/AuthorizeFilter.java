@@ -25,9 +25,6 @@ public class AuthorizeFilter implements GlobalFilter {
     //Mono属于webfuxl的参数与普通的MVC参数有所不同
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
-
-
-
         //取出请求体
         ServerHttpRequest request = exchange.getRequest();
         //取出请求头

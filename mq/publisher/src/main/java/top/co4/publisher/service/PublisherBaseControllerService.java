@@ -14,7 +14,7 @@ import java.util.concurrent.TimeoutException;
  * @date 2022/7/12 18:22
  */
 @Service
-public class BaseControllerService {
+public class PublisherBaseControllerService {
 
     /***
      * @Description //TODO 无交换机 信息将直接发送到消息队列中

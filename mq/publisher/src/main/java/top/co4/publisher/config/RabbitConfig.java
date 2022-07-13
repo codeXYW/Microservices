@@ -13,6 +13,9 @@ public class RabbitConfig {
 
     public static final String QUEUE = "queue_a";
 
+    public static final String BASIC_QUEUE = "basic_queue";
+
+    public static final String WORK_QUEUE = "work_queue";
     public static final String FANOUT_EXCHANGE = "fanout.exchange";
     public static final String FANOUT_QUEUE_A = "fanout_queue_a";
     public static final String FANOUT_QUEUE_B = "fanout_queue_b";
