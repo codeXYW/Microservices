@@ -1,19 +1,18 @@
-package top.co4.web;
+package top.co4.consumer.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.co4.service.BaseControllerService;
+import top.co4.consumer.service.BaseControllerService;
 
 import java.io.IOException;
-import java.util.concurrent.TimeoutException;
 
 /**
  * @author CodeXYW
- * @date 2022/7/12 18:22
+ * @date 2022/7/13 11:13
  */
-@RequestMapping("/base/sender")
+@RequestMapping("/base/receiver")
 @RestController
 public class BaseController {
 
@@ -21,27 +20,34 @@ public class BaseController {
     BaseControllerService baseControllerService;
 
     @GetMapping("/simple")
-    public void simple() throws IOException, TimeoutException {
+    public void simple() throws IOException {
         baseControllerService.simple();
     }
 
     @GetMapping("/fanout")
-    public void fanout() throws IOException, TimeoutException {
+    public void fanout(){
         baseControllerService.fanout();
     }
 
+
     @GetMapping("/direct")
-    public void direct() throws IOException, TimeoutException {
+    public void direct(){
         baseControllerService.direct();
     }
 
+
     @GetMapping("/topic")
-    public void topic() throws IOException, TimeoutException {
+    public void topic(){
         baseControllerService.topic();
     }
 
+
     @GetMapping("/headers")
-    public void headers() throws IOException, TimeoutException {
+    public void headers(){
         baseControllerService.headers();
     }
+
+
+
+
 }

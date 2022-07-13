@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringRabbitListener {
 
-
     /***
      * @Description //TODO 消费端代码
      * @Param: [msg]
