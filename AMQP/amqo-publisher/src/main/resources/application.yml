@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: SpringAMQPPublisher
+  rabbitmq:
+    host: 192.168.81.128
+    port: 5672
+    virtual-host: /
+    username: test
+    password: 123456
+server:
+  port: 8080
