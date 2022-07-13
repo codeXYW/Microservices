@@ -1,4 +1,4 @@
-package top.co4.config;
+package top.co4.publisher.config;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;

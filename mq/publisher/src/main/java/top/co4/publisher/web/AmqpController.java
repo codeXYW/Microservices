@@ -1,10 +1,10 @@
-package top.co4.web;
+package top.co4.publisher.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import top.co4.service.AmqpControllerService;
+import top.co4.publisher.service.AmqpControllerService;
 
 /**
  * @author CodeXYW

@@ -1,8 +1,8 @@
-package top.co4.service;
+package top.co4.publisher.service;
 
 import com.rabbitmq.client.*;
 import org.springframework.stereotype.Service;
-import top.co4.config.RabbitConfig;
+import top.co4.publisher.config.RabbitConfig;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -16,6 +16,13 @@ import java.util.concurrent.TimeoutException;
 @Service
 public class BaseControllerService {
 
+    /***
+     * @Description //TODO 无交换机 信息将直接发送到消息队列中
+     * @Param: []
+     * @Return: void
+     * @Author CodeXYW
+     * @Date 2022/7/13 11:53
+     */
     public void simple() throws IOException, TimeoutException {
         //1、获取连接
         Connection connection = RabbitConfig.getConnection();
@@ -48,6 +55,14 @@ public class BaseControllerService {
         connection.close();
     }
 
+
+    /***
+     * @Description //TODO 将信息发送到交换机 由交换机分发到个消息列队
+     * @Param: []
+     * @Return: void
+     * @Author CodeXYW
+     * @Date 2022/7/13 11:53
+     */
     public void fanout() throws IOException, TimeoutException{
         Connection connection = RabbitConfig.getConnection();
         Channel channel = connection.createChannel();

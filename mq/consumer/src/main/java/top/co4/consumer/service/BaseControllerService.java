@@ -14,6 +14,13 @@ import java.nio.charset.StandardCharsets;
 @Service
 public class BaseControllerService {
 
+    /***
+     * @Description //TODO 直接从消息队列中取出
+     * @Param: []
+     * @Return: void
+     * @Author CodeXYW
+     * @Date 2022/7/13 11:53
+     */
     public void simple() throws IOException {
         // 1、获取连接
         Connection connection = RabbitConfig.getConnection();
@@ -25,12 +32,7 @@ public class BaseControllerService {
          * Consumer consumer，消费方法，当消费者接收到消息要执行的方法
          */
         //自动ack回复
-        channel.basicConsume(RabbitConfig.QUEUE, true, new DefaultConsumer(channel) {
-            @Override
-            public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-                System.out.println(" [ received@simple_1 ] 消息内容 : " + new String(body, StandardCharsets.UTF_8) + "!");
-            }
-        });
+        channel.basicConsume(RabbitConfig.QUEUE, true, getConsumer(channel,"[ received@simple_1 ]"));
     }
 
     public void fanout() {
