@@ -19,4 +19,9 @@ public class QueueConfig {
     public Queue basicQueue(){
         return new Queue(RabbitConfig.BASIC_QUEUE);
     }
+
+    @Bean
+    public Queue objectQueue(){
+        return new Queue(RabbitConfig.QUEUE);
+    }
 }
