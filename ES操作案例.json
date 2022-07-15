@@ -1,0 +1,123 @@
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+##练习
+
+GET /
+## 查询案列
+GET /_analyze
+{
+  "analyzer": "ik_max_word",
+  "text": "你好我是CODE_XYW"
+}
+
+#数据模板
+#{
+#    "age": 2.5,
+#    "weight":55 ,
+#    "state": true,
+#    "info": "CODE_XYW",
+#    "email": "2429921892@qq.com",
+#    "hobby": ["唱", "跳", "rap", "篮球"],
+#    "name": {
+#        "firstName": "CODE",
+#        "lastName": "XYW"
+#    }
+#}
+
+# 添加映射规则
+PUT /my
+{
+  "mappings": {
+    "properties": {
+      "age":{
+        "type": "float",
+        "index": true
+      },
+      "weight":{
+        "type": "float",
+        "index": true
+      },
+      "state":{
+        "type": "boolean",
+        "index": true
+      },
+      "info":{
+        "type": "text",
+        "index": true,
+        "analyzer": "ik_smart"
+      },
+      "email":{
+        "type": "keyword",
+        "index": false
+      },
+      "hobby":{
+        "type": "text",
+        "index": false
+      },
+      "name":{
+        "properties": {
+          "firstName": {
+            "type": "keyword"
+          },
+          "lastName": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}
+
+#删除映射规则
+DELETE /my
+
+#添加
+PUT /my/_mapping
+{
+  "properties": {
+    "location":{
+      "type": "geo_point"
+    }
+  }
+}
+
+#查看映射规则
+GET /my
+
+#往映射规则内添加文档(表内添加数据)
+POST /my/_doc/1
+{
+   "age":20,
+    "weight":55,
+    "state":true,
+    "info":"你好我是CODE_XYW",
+    "email":"2429921892@qq.com",
+    "hobby":["唱","跳","rap","篮球"],
+    "name":{
+      "properties": {
+        "firstName": {
+          "type": "CODE"
+        },
+        "lastName": {
+          "type": "XYW"
+        }
+      }
+    }
+}
+
+#查询数据
+GET /my/_doc/1
+
+#修改更新数据
+POST /my/_update/1
+{
+  "doc":{
+    "state":false
+  }
+}
+
